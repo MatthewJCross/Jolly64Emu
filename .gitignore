@@ -1,5 +1,44 @@
-# Object file
-*.o
+# Build output
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
 
-# Ada Library Information
-*.ali
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Build and publish output
+artifacts/
+publish/
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+*.snupkg
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+
+# Local environment settings and secrets
+.env
+.env.*
+!.env.example
+secrets.json
